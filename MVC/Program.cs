@@ -1,6 +1,19 @@
+using Business;
+using DataAccess;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+#region IoC (Inversion of Control) Container
+
+builder.Services.AddDbContext<DB>(options => options.UseMySQL("server=127.0.0.1; database=RMSDB; user id=root; password=;"));
+
+// builder.Services.AddSingleton<IUserService, UserService>();
+// builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddScoped<IUserService, UserService>();
+#endregion
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

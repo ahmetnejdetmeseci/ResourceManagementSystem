@@ -1,0 +1,85 @@
+@model IEnumerable<UserModel>
+@*Generated from Custom Template.*@
+@*Model namespace using directive should be added to _ViewImports.cshtml.*@
+
+@{
+    string title = "User List";
+    ViewData["Title"] = title;
+
+
+    //count User model deki collectionların countu 
+    int count = Model.Count();
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    @*HTML: *@
+    @* <a href="Users/Create">Create New</a> html helper *@
+    @*Tag Helper Way 1:*@
+    @* <a asp-action="Create">Create New</a> tag helper *@
+    @*Tag helper Way 2: *@
+    <a asp-action="Create" asp-controller="Users"></a>    
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* HTML : *@
+                @* User Name *@
+                @Html.DisplayNameFor(model => model.UserName)
+                @* Buradaki model view a gelen model *@
+                @*Label oluşturuyoruz aslında*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RoleId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+		@foreach (var item in Model) {
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.UserName)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Password)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.IsActive)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.Status)
+					</td>
+					<td>
+						@Html.DisplayFor(modelItem => item.RoleId)
+					</td>
+					<td>
+
+                        @* HTML : *@
+                        @* <a href="/Users/Details/@item.Id">Details</a> *@
+                        @* @Html.ActionLink("Details"-> linkin yazısı, "Details" -> aksiyon adı, new { id = item.id -> details methodu id istediği için id dedik}) Bu da başka bi yol mesela *@
+						@*Way 1:*@
+                        @* <a asp-action="Details" asp-controller="Users" asp-route-id="@item.Id">Details</a>&nbsp;|&nbsp; *@
+                        @* Way 2 : *@
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a>&nbsp;|&nbsp;
+						<a asp-action="Edit" asp-route-id="@item.Id">Edit</a>&nbsp;|&nbsp;
+						<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+					</td>
+				</tr>
+		}
+    </tbody>
+</table>
+
+
+

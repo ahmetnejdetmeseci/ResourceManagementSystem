@@ -1,17 +1,81 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj": {}
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj": {
+    "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj",
-        "projectName": "MVC",
-        "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj",
+        "projectUniqueName": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\obj\\",
+        "outputPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +108,97 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj",
+        "projectName": "MVC",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj",
+        "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
+                "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj"
+              },
+              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

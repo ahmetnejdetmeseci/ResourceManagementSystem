@@ -1,0 +1,11 @@
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\bin\Debug\net7.0\User.deps.json
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\bin\Debug\net7.0\User.dll
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\bin\Debug\net7.0\User.pdb
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\User.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\User.AssemblyInfoInputs.cache
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\User.AssemblyInfo.cs
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\User.csproj.CoreCompileInputs.cache
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\User.dll
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\refint\User.dll
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\User.pdb
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\User\obj\Debug\net7.0\ref\User.dll

@@ -1,0 +1,14 @@
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\bin\Debug\net7.0\DataAccess.dll
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.dll
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+c:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
+C:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+C:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache

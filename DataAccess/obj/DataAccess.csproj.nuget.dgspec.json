@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
