@@ -9,6 +9,11 @@
 
     //count User model deki collectionların countu 
     int count = Model.Count();
+
+
+    //Ternary Operator
+    string countOutput = count == 0 ? "No records found!" : count == 1 ? "One record found!" : count + " records found";
+
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -19,8 +24,19 @@
     @*Tag Helper Way 1:*@
     @* <a asp-action="Create">Create New</a> tag helper *@
     @*Tag helper Way 2: *@
-    <a asp-action="Create" asp-controller="Users"></a>    
+    <a asp-action="Create" asp-controller="Users">Create New</a>    
 </p>
+
+@if(TempData["Message"] is not null)
+{
+    <p class="text-success"> @TempData["Message"] </p>
+}
+
+<p class="text-success">
+    @countOutput
+</p>
+
+
 <table class="table">
     <thead>
         <tr>
@@ -35,13 +51,15 @@
                 @Html.DisplayNameFor(model => model.Password)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IsActive)
+                @*Istediğimiz şekilde görünmesi için yaptık*@
+                @Html.DisplayNameFor(model => model.IsActiveOutput)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Status)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RoleId)
+                @*istediğimiz şekilde görünmesi için yaptık*@
+                @Html.DisplayNameFor(model => model.RoleNameOutput)
             </th>
             <th></th>
         </tr>
@@ -50,19 +68,23 @@
 		@foreach (var item in Model) {
 				<tr>
 					<td>
+                        @*Way 1:*@
+                        @*HTML: *@
+                        @*item.UserName*@
+                        @*Way 2:*@
 						@Html.DisplayFor(modelItem => item.UserName)
 					</td>
 					<td>
 						@Html.DisplayFor(modelItem => item.Password)
 					</td>
 					<td>
-						@Html.DisplayFor(modelItem => item.IsActive)
+						@Html.DisplayFor(modelItem => item.IsActiveOutput)
 					</td>
 					<td>
 						@Html.DisplayFor(modelItem => item.Status)
 					</td>
 					<td>
-						@Html.DisplayFor(modelItem => item.RoleId)
+						@Html.DisplayFor(modelItem => item.RoleNameOutput)
 					</td>
 					<td>
 

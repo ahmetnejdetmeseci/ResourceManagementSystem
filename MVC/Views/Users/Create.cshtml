@@ -1,9 +1,10 @@
+@using DataAccess.Enums;
 @model UserModel
 @*Generated from Custom Template.*@
 @*Model namespace using directive should be added to _ViewImports.cshtml.*@
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create User";
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -12,57 +13,123 @@
 <hr />
 <div class="row">
     <div class="col-12">
-        <form asp-action="Create">
-		@Html.AntiForgeryToken()
-            <div asp-validation-summary="All" class="text-danger"></div>
-            <div class="row mb-3">
-                <label asp-for="UserName" class="col-2 col-form-label"></label>
+		@*HTML :*@
+        @*<form asp-action="Create" method="post">@*default method get*@
+		@*<form asp-action="Create" asp-controller="User">*@
+		@using (Html.BeginForm())
+		{
+			@Html.AntiForgeryToken()
+
+			@*Tag Helper*@
+			@*<div asp-validation-summary="All" class="text-danger"></div>*@
+			@*HTML Helper*@
+
+			@* //Way 1: Carrying data with ViewData.
+			@if(ViewBag.Message is not null)
+			{
+				<p class="text-danger" >@ViewBag.Message</p>
+			} *@
+			@*ModeState in the action sends data to view's valdation summary.*@
+			@Html.ValidationSummary(false, null, new { @class = "text-danger"});
+			<div class="row mb-3">
+				<label asp-for="UserName" class="col-2 col-form-label"></label>
 				<div class="col-5">
 					<input asp-for="UserName" class="form-control" />
 					<span asp-validation-for="UserName" class="text-danger"></span>
+					@*HTML Helper*@
+					@*Html.LabelFor(model => model.UserName, new { style = "font-weight : bold"})*@
+					@*HTML helper*@
+					@*Html.TextBoxFor(m => m.UserName, new { placeholder = "Enter user name ..." })*@
+					@Html.ValidationMessageFor(modellitosko => modellitosko.UserName, null, new { @class = "text-danger" })
 				</div>
-            </div>
-            <div class="row mb-3">
-                <label asp-for="Password" class="col-2 col-form-label"></label>
+			</div>
+			<div class="row mb-3">
+				@*Tag Helper*@
+				@*<label asp-for="Password" class="col-2 col-form-label" style="font-weight: bold"></label>*@
+				<label asp-for="Password" class="col-2 col-form-label"></label>
 				<div class="col-5">
-					<input asp-for="Password" class="form-control" />
-					<span asp-validation-for="Password" class="text-danger"></span>
+					@*Tag Helper*@
+					<input asp-for="Password" class="form-control" type="password"/>
+					@*Tag Helper*@
+					@*<span asp-validation-for="Password" class="text-danger"></span>*@
+					@*HTML HELPER: *@
 				</div>
-            </div>
-            <div class="row mb-3">
+			</div>
+			<div class="row mb-3">
 				<label asp-for="IsActive" class="col-2 col-form-label"></label>
 				<div class="col-5" style="padding-top: 7px;">
+
+					@*HTML:*@
+					@*<input type="checkbox" name="IsActive" class="form-check-input" />*@
+					@*HTML Helper:*@
+					@*Html.CheckBoxFor(model => model.IsActive, new { @class = "form-check-input"})*@
+					@*Tag Helper*@
 					<input class="form-check-input" asp-for="IsActive" />
-                </div>
-            </div>
-            <div class="row mb-3">
-                <label asp-for="Status" class="col-2 col-form-label"></label>
+
+				</div>
+			</div>
+			<div class="row mb-3">
+				<label asp-for="Status" class="col-2 col-form-label"></label>
 				<div class="col-5">
-					<select asp-for="Status" class="form-select">
+					<div>
+						
+						@* html : *@
+						@*<input type="radio" name="Status" id="status1" value="@((int)Stasuses.Junior)" class="form-check-input" />
+						<label class="form-check-label" for="status1"> @Stasuses.Junior </label>*@
+						@*<input type="radio" name="Status" id="status2" value="@((int)Stasuses.Senior)" class="form-check-input" />
+						<label class="form-check-label" for="status2"> @Stasuses.Senior </label>*@
+						@*<input type="radio" name="Status" id="status3" value="@((int)Stasuses.Master)" class="form-check-input" />
+						<label class="form-check-label" for="status3"> @Stasuses.Master </label>*@
+						
+						
+						@*html helper: *@
+						@*Html.RadioButtonFor(model => model.Status, ((int)Stasuses.Junior, new { @class = "form-check-input" }))
+						@Html.LabelFor(model => model.Status, Stasuses.Junior.ToString())*@
+						@*Html.RadioButtonFor(model => model.Status, ((int)Stasuses.Senior, new { @class = "form-check-input" }))
+						@Html.LabelFor(model => model.Status, Stasuses.Senior.ToString())*@
+						@*Html.RadioButtonFor(model => model.Status, ((int)Stasuses.Master, new { @class = "form-check-input" }))
+						@Html.LabelFor(model => model.Status, Stasuses.Master.ToString())*@
+
+
+						@*Tag helper:*@
+						<input asp-for="Status" type="radio" class="form-check-input" id="status1" value="@((int)Stasuses.Junior)" checked/>
+						<label class="form-check-label" asp-for="Status" for="status1"> @Stasuses.Junior </label>
+
+						<input asp-for="Status" type="radio" class="form-check-input" id="status2" value="@((int)Stasuses.Senior)" />
+						<label class="form-check-label" asp-for="Status" for="status2"> @Stasuses.Senior </label>
+
+						<input asp-for="Status" type="radio" class="form-check-input" id="status3" value="@((int)Stasuses.Master)" />
+						<label class="form-check-label" asp-for="Status" for="status3"> @Stasuses.Master </label>
+					</div>
+					
+
+				@*<select asp-for="Status" class="form-select">
 						<option value="">-- Select --</option>
-					</select>
+				</select>*@
+				@*@Html.DropDownListFor(m => m.RoleId, ViewData["Roles"] as SelectList, "--Select--", new { @class = "form-select" })*@
 					<span asp-validation-for="Status" class="text-danger"></span>
 				</div>
-            </div>
-            <div class="row mb-3">
-                <label asp-for="RoleId" class="col-2 col-form-label"></label>
+			</div>
+			<div class="row mb-3">
+				<label asp-for="RoleId" class="col-2 col-form-label"></label>
 				<div class="col-5">
-					<select asp-for="RoleId" class="form-select" asp-items="ViewBag.RoleId">
+					<select asp-for="RoleId" class="form-select" asp-items="ViewBag.Roles">
 						<option value="">-- Select --</option>
 					</select>
 					<span asp-validation-for="RoleId" class="text-danger"></span>
 				</div>
-            </div>
-            <div class="row mb-3">
+			</div>
+			<div class="row mb-3">
 				<div class="offset-2 col-5">
 					<input type="submit" value="Save" class="btn btn-primary" />
 					&nbsp;&nbsp;
-                    <button type="reset" class="btn btn-outline-primary">Reset</button>
+					<button type="reset" class="btn btn-outline-primary">Reset</button>
 					&nbsp;&nbsp;
 					<a asp-action="Index">Back to List</a>
 				</div>
-            </div>
-        </form>
+			</div>
+		@* <form/> *@
+		}
     </div>
 </div>
 

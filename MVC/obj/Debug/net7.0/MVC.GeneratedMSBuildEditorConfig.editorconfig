@@ -16,58 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ahmet\OneDrive\Masaüstü\CTIS 2023 Fall emester\CTIS 479\Week 1 - Introduction to dotnet\ResourceManagementSystem\MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ControllerGenerator/ApiControllerWithActions.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ControllerGenerator/ApiControllerWithContext.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ControllerGenerator/ApiEmptyController.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQXBpRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ControllerGenerator/ControllerWithActions.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcQ29udHJvbGxlcldpdGhBY3Rpb25zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ControllerGenerator/EmptyController.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcRW1wdHlDb250cm9sbGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ControllerGenerator/MvcControllerWithContext.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXENvbnRyb2xsZXJHZW5lcmF0b3JcTXZjQ29udHJvbGxlcldpdGhDb250ZXh0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/Empty.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcRW1wdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Templates/ViewGenerator/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVzXFZpZXdHZW5lcmF0b3JcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,8 +36,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/Users/_Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcX0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ahmet/OneDrive/Masaüstü/CTIS 2023 Fall emester/CTIS 479/Week 1 - Introduction to dotnet/ResourceManagementSystem/MVC/Views/_ViewImports.cshtml]

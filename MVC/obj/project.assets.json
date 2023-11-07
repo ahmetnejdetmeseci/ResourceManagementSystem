@@ -11646,8 +11646,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
-              "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj"
+            "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj"
             },
             "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj"

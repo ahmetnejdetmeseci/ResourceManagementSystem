@@ -4,14 +4,14 @@
     "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\obj\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -171,8 +171,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
-                "projectPath": "c:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj"
+              "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\Business\\Business.csproj"
               },
               "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\ahmet\\OneDrive\\Masaüstü\\CTIS 2023 Fall emester\\CTIS 479\\Week 1 - Introduction to dotnet\\ResourceManagementSystem\\DataAccess\\DataAccess.csproj"

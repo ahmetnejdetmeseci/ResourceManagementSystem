@@ -1,4 +1,5 @@
 using Business;
+using Business.Services;
 using DataAccess;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ builder.Services.AddDbContext<DB>(options => options.UseMySQL("server=127.0.0.1;
 // builder.Services.AddSingleton<IUserService, UserService>();
 // builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
 #endregion
 
 builder.Services.AddControllersWithViews();

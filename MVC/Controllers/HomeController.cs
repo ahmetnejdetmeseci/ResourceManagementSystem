@@ -19,7 +19,7 @@ public class HomeController : Controller
         implements IActionResult
         ActionResult
         |
-        inherits from ActionResult
+        inherits from ActionResult / ViewResult - ContentResults - RedirectResults - HttpStatusCodeResults
         ViewResult
         */
         // Way 1:

@@ -11,6 +11,11 @@ a {
   color: #0077cc;
 }
 
+.layout-header{
+    color: orangered !important;
+    font-weight: bold !important;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

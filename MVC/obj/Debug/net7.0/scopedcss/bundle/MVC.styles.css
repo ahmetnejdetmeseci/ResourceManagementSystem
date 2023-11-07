@@ -12,6 +12,11 @@ a[b-q0a04yuu0e] {
   color: #0077cc;
 }
 
+.layout-header[b-q0a04yuu0e]{
+    color: orangered !important;
+    font-weight: bold !important;
+}
+
 .btn-primary[b-q0a04yuu0e] {
   color: #fff;
   background-color: #1b6ec2;
